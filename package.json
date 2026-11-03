@@ -1,0 +1,29 @@
+{
+  "name": "omnirush-pi",
+  "version": "1.0.0",
+  "description": "OmniRush models (gpt-6-astra, gpt-6.1-sol, gpt-6-sol) as a Pi provider using the CLI's local credentials.",
+  "keywords": [
+    "pi-package",
+    "omnirush",
+    "custom-provider",
+    "openai-responses"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ]
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "peerDependenciesMeta": {
+    "@earendil-works/pi-coding-agent": {
+      "optional": true
+    }
+  }
+}
