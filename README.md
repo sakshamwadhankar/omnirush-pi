@@ -1,5 +1,7 @@
 # omnirush-pi
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 [Pi](https://pi.dev) provider for **OmniRush** models — `gpt-6-astra`, `gpt-6.1-sol`, and `gpt-6-sol` — powered by your own OmniRush CLI login. No extra login inside Pi, no daemon, no third-party gateways.
 
 The extension reads the credentials the official OmniRush CLI already stores (`~/.omnirush/auth.json`), registers an `omnirush` provider with Pi's built-in OpenAI Responses API implementation, and replicates the official client's wire signature so the gateway accepts the requests.
@@ -22,7 +24,7 @@ The model list is fetched live from the gateway catalog (`GET <gateway>/models`)
 ## Install
 
 ```bash
-pi install git:github.com/<you>/omnirush-pi
+pi install git:github.com/sakshamwadhankar/omnirush-pi
 ```
 
 or locally:

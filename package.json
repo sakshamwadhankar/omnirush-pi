@@ -9,6 +9,10 @@
     "openai-responses"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakshamwadhankar/omnirush-pi.git"
+  },
   "type": "module",
   "pi": {
     "extensions": [
